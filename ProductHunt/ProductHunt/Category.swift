@@ -14,7 +14,6 @@ struct Category {
     var slug: String
     
     init?(json: [String: Any]) {
-        
         guard
             let color = json["color"] as? String,
             let id = json["id"] as? Int,
@@ -31,7 +30,6 @@ struct Category {
     }
     
     static func getArray(from jsonArray: Any) -> [Category]? {
-        
         guard let tempJsonArray1 = jsonArray as? [String: Any] else {
             return nil
         }
@@ -47,6 +45,7 @@ struct Category {
                 categories.append(category)
             }
         }
+        
         return categories
     }
 }

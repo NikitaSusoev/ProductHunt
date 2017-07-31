@@ -21,6 +21,7 @@
 		11439A7E1F16793B00380E9C /* ProductPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11439A741F16793B00380E9C /* ProductPageCell.xib */; };
 		11439A7F1F16793B00380E9C /* ProductPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11439A751F16793B00380E9C /* ProductPageController.swift */; };
 		11439A801F16793B00380E9C /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11439A761F16793B00380E9C /* WebsiteViewController.swift */; };
+		11439A861F16D28300380E9C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11439A851F16D28300380E9C /* NetworkClient.swift */; };
 		CDB455582D7C76A6F7D06B18 /* Pods_ProductHunt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3A2A5C28C63BB02D3C6DFA /* Pods_ProductHunt.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		11439A741F16793B00380E9C /* ProductPageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductPageCell.xib; sourceTree = "<group>"; };
 		11439A751F16793B00380E9C /* ProductPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPageController.swift; sourceTree = "<group>"; };
 		11439A761F16793B00380E9C /* WebsiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		11439A851F16D28300380E9C /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		2B41028C84B8E5A9AD6DF21D /* Pods-ProductHunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductHunt.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProductHunt/Pods-ProductHunt.release.xcconfig"; sourceTree = "<group>"; };
 		DD6DD0C10FA9FFC5D695960E /* Pods-ProductHunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductHunt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProductHunt/Pods-ProductHunt.debug.xcconfig"; sourceTree = "<group>"; };
 		FA3A2A5C28C63BB02D3C6DFA /* Pods_ProductHunt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProductHunt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				11439A831F167CF600380E9C /* Controller */,
 				11439A821F167CED00380E9C /* View */,
 				11439A811F167CE200380E9C /* Model */,
+				11439A851F16D28300380E9C /* NetworkClient.swift */,
 				11439A5B1F16782300380E9C /* AppDelegate.swift */,
 				11439A621F16782300380E9C /* Assets.xcassets */,
 				11439A641F16782300380E9C /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 				11439A801F16793B00380E9C /* WebsiteViewController.swift in Sources */,
 				11439A5C1F16782300380E9C /* AppDelegate.swift in Sources */,
 				11439A7F1F16793B00380E9C /* ProductPageController.swift in Sources */,
+				11439A861F16D28300380E9C /* NetworkClient.swift in Sources */,
 				11439A791F16793B00380E9C /* CategoryListController.swift in Sources */,
 				11439A771F16793B00380E9C /* Category.swift in Sources */,
 				11439A7B1F16793B00380E9C /* ProductCell.swift in Sources */,

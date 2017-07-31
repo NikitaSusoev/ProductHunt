@@ -18,21 +18,16 @@ struct Post {
     var websiteURL: String?
     
     init?(json: [String: Any]) {
-        
         let thumbnail = json["thumbnail"] as? [String:Any]
         let screenshotURL = json["screenshot_url"] as? [String:Any]
         let user = json["user"] as? [String:Any]
         
-       // guard
-            let name = json["name"] as? String ?? "Unknown"
-            let tagline = json["tagline"] as? String ?? "Unknown"
-            let thumbnailImageURL = thumbnail?["image_url"] as? String ?? nil
-            let screenshotURL_850px = screenshotURL?["850px"] as? String ?? nil
-            let votesCount = json["votes_count"] as? Int ?? nil
-            let websiteURL = user?["website_url"] as? String ?? nil
-       //     else {
-       //         return nil
-       // }
+        let name = json["name"] as? String ?? "Unknown"
+        let tagline = json["tagline"] as? String ?? "Unknown"
+        let thumbnailImageURL = thumbnail?["image_url"] as? String ?? nil
+        let screenshotURL_850px = screenshotURL?["850px"] as? String ?? nil
+        let votesCount = json["votes_count"] as? Int ?? nil
+        let websiteURL = user?["website_url"] as? String ?? nil
         
         self.name = name
         self.tagline = tagline
@@ -43,7 +38,6 @@ struct Post {
     }
     
     static func getArray(from jsonArray: Any) -> [Post]? {
-        
         guard let tempJsonArray1 = jsonArray as? [String: Any] else {
             return nil
         }
@@ -59,6 +53,7 @@ struct Post {
                 posts.append(post)
             }
         }
+        
         return posts
     }
 }
